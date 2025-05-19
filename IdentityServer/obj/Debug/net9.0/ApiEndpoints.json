@@ -2,7 +2,7 @@
   {
     "ContainingType": "IdentityServer.Controllers.UsersController",
     "Method": "DeleteUser",
-    "RelativePath": "api/Users/delete-user/{userId}",
+    "RelativePath": "api/Users/delete-User/{userId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -17,8 +17,24 @@
   },
   {
     "ContainingType": "IdentityServer.Controllers.UsersController",
+    "Method": "GetInfo",
+    "RelativePath": "api/Users/me/info/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityServer.Controllers.UsersController",
     "Method": "SignIn",
-    "RelativePath": "api/Users/signin",
+    "RelativePath": "api/Users/signIn",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -34,7 +50,7 @@
   {
     "ContainingType": "IdentityServer.Controllers.UsersController",
     "Method": "CreateUser",
-    "RelativePath": "api/Users/signup",
+    "RelativePath": "api/Users/signUp",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -50,7 +66,7 @@
   {
     "ContainingType": "IdentityServer.Controllers.UsersController",
     "Method": "UpdateUser",
-    "RelativePath": "api/Users/update-user/{id}",
+    "RelativePath": "api/Users/update-User/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
