@@ -9,6 +9,8 @@
     using IdentityServer.Application.Commands.UpdateUser;
     using IdentityServer.Application.Commands.DeleteUser;
     using IdentityServer.Application.Queries.GetUserInfo;
+    using IdentityServer.Application.Queries.GetAllUsers;
+    using IdentityServer.Application.Queries.GetAllRoles;
 
     public class UsersController : BaseApiController
     {
@@ -37,6 +39,15 @@
         [HttpGet("me/info/{userId}")]
         public async Task<IActionResult> GetInfo(int userId) =>
             AsActionResult(await _mediator.Send(new GetUserInfoQuery { UserId = userId }));
+
+        [HttpGet("all-users")]
+        public async Task<IActionResult> GetAllUsersAsync() =>
+            AsActionResult<IEnumerable<GetQueryResponse>>(await _mediator.Send(new GetAllUsersQuery()));
+
+        [HttpGet("admin/all-roles")] 
+        public async Task<IActionResult> GetAllRolesAsync() =>
+            AsActionResult(await _mediator.Send(new GetAllRolesQuery()));
+
 
     }
 }

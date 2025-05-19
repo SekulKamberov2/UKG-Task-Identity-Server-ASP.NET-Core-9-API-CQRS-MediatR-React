@@ -63,9 +63,13 @@
             );
         }
 
-        public Task<IdentityResult<IEnumerable<Role>>> GetAllRolesAsync()
+        public async Task<IdentityResult<IEnumerable<Role>>> GetAllRolesAsync()
         {
-            throw new NotImplementedException();
+            return await ExecuteWithLogging(
+                () => _roleRepository.GetRolesAsync(),
+                "Fetched all roles successfully.",
+                "Error occurred while fetching roles."
+            );
         }
     }
 }

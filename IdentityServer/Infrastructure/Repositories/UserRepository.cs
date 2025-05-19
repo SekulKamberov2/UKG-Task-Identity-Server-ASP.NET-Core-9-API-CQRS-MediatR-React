@@ -141,6 +141,49 @@
             }
         }
 
+        public async Task<IEnumerable<User>> GetUsersAsync()
+        {
+            const string sql = @"
+                SELECT u.Id, u.UserName, u.Email, u.PhoneNumber, u.DateCreated, r.Name AS RoleName
+                FROM Users u
+                LEFT JOIN UserRoles ur ON u.Id = ur.UserId
+                LEFT JOIN Roles r ON ur.RoleId = r.Id";
 
+            try
+            {
+                var userDictionary = new Dictionary<int, User>();
+
+                await _dbConnection.QueryAsync<User, string, User>(
+                    sql,
+                    (user, roleName) =>
+                    {
+                        if (!userDictionary.TryGetValue(user.Id, out var existingUser))
+                        {
+                            existingUser = user;
+                            existingUser.Roles = new List<string>();
+                            userDictionary.Add(existingUser.Id, existingUser);
+                        }
+
+                        if (!string.IsNullOrEmpty(roleName))
+                            existingUser.Roles.Add(roleName);
+
+                        return existingUser;
+                    },
+                    splitOn: "RoleName"
+                );
+
+                return userDictionary.Values;
+            }
+            catch (SqlException ex)
+            {
+                _logger.LogError(ex, "SQL error during fetching users with roles.");
+                throw new RepositoryException("Error occurred while fetching users with roles.", ex);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Unexpected error during fetching users with roles.");
+                throw new RepositoryException("Unexpected error occurred while fetching users.", ex);
+            }
+        }
     }
 }

@@ -10,5 +10,6 @@
         Task<IdentityResult<User?>> FindByIdAsync(int userId);
         Task<IdentityResult<User>> UpdateAsync(User user);
         Task<IdentityResult<bool>> DeleteAsync(int userId);
+        Task<IdentityResult<IEnumerable<User>>> GetAllUsersAsync();
     }
 }

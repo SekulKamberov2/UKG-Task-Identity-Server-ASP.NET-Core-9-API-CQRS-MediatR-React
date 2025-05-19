@@ -123,6 +123,13 @@
             );
         }
 
-
+        public async Task<IdentityResult<IEnumerable<User>>> GetAllUsersAsync()
+        {
+            return await ExecuteWithLogging(
+                () => _userRepository.GetUsersAsync(),
+                "Fetched all users successfully.",
+                "Error occurred while fetching users."
+            );
+        }
     }
 }

@@ -1,6 +1,26 @@
 [
   {
     "ContainingType": "IdentityServer.Controllers.UsersController",
+    "Method": "GetAllRolesAsync",
+    "RelativePath": "api/Users/admin/all-roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityServer.Controllers.UsersController",
+    "Method": "GetAllUsersAsync",
+    "RelativePath": "api/Users/all-users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityServer.Controllers.UsersController",
     "Method": "DeleteUser",
     "RelativePath": "api/Users/delete-User/{userId}",
     "HttpMethod": "DELETE",
@@ -83,26 +103,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "IdentityServer.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[IdentityServer.WeatherForecast, IdentityServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]
