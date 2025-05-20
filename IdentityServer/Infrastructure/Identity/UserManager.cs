@@ -131,5 +131,19 @@
                 "Error occurred while fetching users."
             );
         }
+
+        public async Task<IdentityResult<bool>> ResetPasswordAsync(int id, string newPassword)
+        {
+            return await ExecuteWithLogging(
+                async () =>
+                {
+                    var hashedPassword = _passwordHasher.HashPassword(newPassword);
+                    return await _userRepository.ResetPasswordAsync(id, hashedPassword);
+                },
+                "Password for user with ID {UserId} reset successfully.",
+                "Error occurred while resetting the password for user ID {UserId}.",
+                id
+            );
+        }
     }
 }

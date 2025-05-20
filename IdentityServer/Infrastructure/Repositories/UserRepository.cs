@@ -185,5 +185,26 @@
                 throw new RepositoryException("Unexpected error occurred while fetching users.", ex);
             }
         }
+
+        public async Task<bool> ResetPasswordAsync(int userId, string newPassword)
+        {
+            const string updateQuery = "UPDATE Users SET PasswordHash = @NewPassword WHERE Id = @UserId";
+            var parameters = new { UserId = userId, NewPassword = newPassword };
+
+            try
+            {
+                return await _dbConnection.ExecuteAsync(updateQuery, parameters) > 0;
+            }
+            catch (SqlException ex)
+            {
+                _logger.LogError(ex, "SQL error during password reset.");
+                throw new RepositoryException("Error occurred while resetting the password.", ex);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Unexpected error during password reset.");
+                throw new RepositoryException("Unexpected error occurred while resetting the password.", ex);
+            }
+        }
     }
 }

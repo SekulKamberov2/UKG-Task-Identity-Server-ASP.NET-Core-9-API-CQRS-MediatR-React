@@ -71,5 +71,39 @@
                 "Error occurred while fetching roles."
             );
         }
+
+        public async Task<IdentityResult<bool>> CreateRoleAsync(string name, string description)
+        {
+            return await ExecuteWithLogging(
+                () => _roleRepository.CreateUserRoleAsync(name, description),
+                "Role created successfully.",
+                $"Error occurred while creating role {name}."
+            );
+        }
+
+        public async Task<IdentityResult<Role>> GetRoleByIdAsync(int roleId)
+        {
+            return await ExecuteWithLogging(
+                () => _roleRepository.FindRoleByIdAsync(roleId),
+                "Fetched role by ID successfully.",
+                $"Error occurred while fetching role ID {roleId}."
+            );
+        }
+
+        public async Task<IdentityResult<bool>> UpdateRoleAsync(int id, string? name, string? description)
+        {
+            return await ExecuteWithLogging(
+                async () =>
+                {
+                    var role = await _roleRepository.FindRoleByIdAsync(id);
+                    if (role == null)
+                        return false;
+
+                    return await _roleRepository.UpdateUserRoleAsync(id, name, description);
+                },
+                "Role updated successfully.",
+                $"Error occurred while updating role ID {id}."
+            );
+        }
     }
 }

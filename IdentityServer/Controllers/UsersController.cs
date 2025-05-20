@@ -11,6 +11,10 @@
     using IdentityServer.Application.Queries.GetUserInfo;
     using IdentityServer.Application.Queries.GetAllUsers;
     using IdentityServer.Application.Queries.GetAllRoles;
+    using IdentityServer.Application.Commands.ResetUserPassword;
+    using IdentityServer.Application.Commands.CreateRole;
+    using IdentityServer.Application.Commands.AssignRole;
+    using IdentityServer.Application.Commands.UpdateRole;
 
     public class UsersController : BaseApiController
     {
@@ -48,6 +52,28 @@
         public async Task<IActionResult> GetAllRolesAsync() =>
             AsActionResult(await _mediator.Send(new GetAllRolesQuery()));
 
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPasswordAsync([FromBody] ResetUserPasswordCommand command) =>
+            AsActionResult(await _mediator.Send(command));
+
+        [HttpPost("admin/reset-password")]
+        public async Task<IActionResult> ResetPasswordByAdminAsync([FromBody] ResetUserPasswordCommand command) =>
+            AsActionResult(await _mediator.Send(command));
+
+        [HttpPost("create-role")]
+        public async Task<IActionResult> CreateRole([FromBody] CreateRoleCommand command) =>
+           AsActionResult(await _mediator.Send(command));
+
+        [HttpPost("assign-role")]
+        public async Task<IActionResult> AssignRoleToUser([FromBody] AssignRoleCommand command) =>
+            AsActionResult(await _mediator.Send(command));
+
+        [HttpPatch("update-role/{id}")]
+        public async Task<IActionResult> UpdateRole(int id, [FromBody] UpdateRoleCommand command)
+        {
+            command.Id = id;
+            return AsActionResult(await _mediator.Send(command));
+        }
 
     }
 }

@@ -1,11 +1,14 @@
 ﻿namespace IdentityServer.Infrastructure.Repositories
 {
+    using System.Data;
+    using Microsoft.Data.SqlClient;
+
     using Dapper;
+
     using IdentityServer.Application.Interfaces;
     using IdentityServer.Domain.Exceptions;
     using IdentityServer.Domain.Models;
-    using Microsoft.Data.SqlClient;
-    using System.Data;
+ 
 
     public class RoleRepository : IRoleRepository
     {   
@@ -78,6 +81,73 @@
             {
                 _logger.LogError(ex, "Error occurred while fetching roles for user ID {UserId}.", userId);
                 throw new RepositoryException("Error occurred while fetching roles.", ex);
+            }
+        }
+
+        public async Task<bool> CreateUserRoleAsync(string roleName, string description)
+        {
+            const string sql = @"INSERT INTO Roles (Name, Description) VALUES (@Name, @Description);";
+            var parameters = new { Name = roleName, Description = description };
+            try
+            {
+                var result = await _dbConnection.ExecuteAsync(sql, parameters);
+                if (result <= 0)
+                    throw new RepositoryException("Failed to create a role.");
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while creating role {RoleName}.", roleName);
+                throw new RepositoryException("Error occurred while creating the role.", ex);
+            }
+        }
+
+        public async Task<Role?> FindRoleByIdAsync(int roleId)
+        {
+            const string query = "SELECT * FROM Roles WHERE Id = @Id";
+            var parameters = new { Id = roleId };
+            try
+            {
+                return await _dbConnection.QuerySingleOrDefaultAsync<Role>(query, parameters);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while fetching role by ID {RoleId}.", roleId);
+                throw new RepositoryException("Error occurred while retrieving role.", ex);
+            }
+        }
+
+        public async Task<bool> UpdateUserRoleAsync(int id, string? roleName, string? description)
+        {
+            var updates = new List<string>();
+            var parameters = new DynamicParameters();
+            parameters.Add("Id", id);
+
+            if (!string.IsNullOrWhiteSpace(roleName))
+            {
+                updates.Add("Name = @Name");
+                parameters.Add("Name", roleName);
+            }
+            if (!string.IsNullOrWhiteSpace(description))
+            {
+                updates.Add("Description = @Description");
+                parameters.Add("Description", description);
+            }
+            if (updates.Count == 0) throw new RepositoryException("No Name and Description provided for update.");
+
+            var sql = $"UPDATE Roles SET {string.Join(", ", updates)} WHERE Id = @Id;";
+
+            try
+            {
+                var result = await _dbConnection.ExecuteAsync(sql, parameters);
+                if (result <= 0) throw new RepositoryException("Failed to update the role.");
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while updating role ID {RoleId}.", id);
+                throw new RepositoryException("Error occurred while updating the role.", ex);
             }
         }
     }

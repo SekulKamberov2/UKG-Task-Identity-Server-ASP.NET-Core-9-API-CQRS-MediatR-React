@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\queries\\getallroles\\getallrolesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\queries\\getallroles\\getallrolesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\infrastructure\\identity\\rolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\infrastructure\\identity\\rolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +11,52 @@
       "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\queries\\getallroles\\getallrolesqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\queries\\getallroles\\getallrolesqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\interfaces\\irolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\interfaces\\irolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\commands\\updaterole\\updaterolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\commands\\updaterole\\updaterolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\commands\\updaterole\\updaterolecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\commands\\updaterole\\updaterolecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\infrastructure\\identity\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\infrastructure\\identity\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\commands\\assignrole\\assignrolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\commands\\assignrole\\assignrolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\queries\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\queries\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\interfaces\\iusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\interfaces\\iusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\commands\\createrole\\createrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\commands\\createrole\\createrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\commands\\createrole\\createrolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\commands\\createrole\\createrolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\commands\\createrole\\createrolecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\commands\\createrole\\createrolecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\commands\\resetuserpassword\\resetuserpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\commands\\resetuserpassword\\resetuserpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\commands\\resetuserpassword\\resetuserpasswordcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\commands\\resetuserpassword\\resetuserpasswordcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,8 +67,24 @@
       "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\interfaces\\iusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\interfaces\\iusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\infrastructure\\identity\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\infrastructure\\identity\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\commands\\resetuserpassword\\resetuserpasswordcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\commands\\resetuserpassword\\resetuserpasswordcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\queries\\getallroles\\getallrolesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\queries\\getallroles\\getallrolesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\queries\\getallroles\\getallrolesqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\queries\\getallroles\\getallrolesqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\queries\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\queries\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react2\\identityserver\\application\\queries\\getallusers\\getqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,69 +110,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserManager.cs",
-              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Infrastructure\\Identity\\UserManager.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\Infrastructure\\Identity\\UserManager.cs",
-              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Infrastructure\\Identity\\UserManager.cs",
-              "RelativeToolTip": "IdentityServer\\Infrastructure\\Identity\\UserManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T16:48:02.907Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUserManager.cs",
-              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Interfaces\\IUserManager.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\Application\\Interfaces\\IUserManager.cs",
-              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Interfaces\\IUserManager.cs",
-              "RelativeToolTip": "IdentityServer\\Application\\Interfaces\\IUserManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T16:48:05.194Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "IdentityServer\\Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAUwLoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T16:48:51.431Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\Application\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "IdentityServer\\Application\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T16:48:55.305Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Controllers\\UsersController.cs",
               "RelativeToolTip": "IdentityServer\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAkwDAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAA5wD8AAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T15:54:42.685Z",
               "IsPinned": true,
@@ -136,13 +124,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Infrastructure\\Identity\\UserManager.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Infrastructure\\Identity\\UserManager.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Infrastructure\\Identity\\UserManager.cs",
+              "RelativeToolTip": "IdentityServer\\Infrastructure\\Identity\\UserManager.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAowIwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T16:48:02.907Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserManager.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Interfaces\\IUserManager.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Interfaces\\IUserManager.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Interfaces\\IUserManager.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Interfaces\\IUserManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T16:48:05.194Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "IdentityServer\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwM8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T16:48:51.431Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T16:48:55.305Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RoleRepository.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Infrastructure\\Repositories\\RoleRepository.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Infrastructure\\Repositories\\RoleRepository.cs",
               "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Infrastructure\\Repositories\\RoleRepository.cs",
               "RelativeToolTip": "IdentityServer\\Infrastructure\\Repositories\\RoleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAgwJcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T18:06:39.034Z",
               "IsPinned": true,
@@ -150,13 +194,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:21:19.392Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "RoleManager.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Infrastructure\\Identity\\RoleManager.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Infrastructure\\Identity\\RoleManager.cs",
               "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Infrastructure\\Identity\\RoleManager.cs",
               "RelativeToolTip": "IdentityServer\\Infrastructure\\Identity\\RoleManager.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAD4v0cAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAYwFMAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T18:07:01.516Z",
               "IsPinned": true,
@@ -164,28 +222,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetAllRolesQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryHandler.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryHandler.cs",
-              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryHandler.cs",
-              "RelativeToolTip": "IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IRoleManager.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Interfaces\\IRoleManager.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Interfaces\\IRoleManager.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Interfaces\\IRoleManager.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Interfaces\\IRoleManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T18:01:06.504Z",
+              "WhenOpened": "2025-05-20T05:20:30.94Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetAllRolesQueryResponse.cs",
-              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryResponse.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryResponse.cs",
-              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryResponse.cs",
-              "RelativeToolTip": "IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABqAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "UpdateRoleCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\UpdateRole\\UpdateRoleCommandValidator.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Commands\\UpdateRole\\UpdateRoleCommandValidator.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\UpdateRole\\UpdateRoleCommandValidator.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Commands\\UpdateRole\\UpdateRoleCommandValidator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T18:00:57.063Z",
+              "WhenOpened": "2025-05-20T05:32:20.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateRoleCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\UpdateRole\\UpdateRoleCommandHandler.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Commands\\UpdateRole\\UpdateRoleCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\UpdateRole\\UpdateRoleCommandHandler.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Commands\\UpdateRole\\UpdateRoleCommandHandler.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:32:10.587Z",
               "EditorCaption": ""
             },
             {
@@ -202,7 +274,122 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssignRoleCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\AssignRole\\AssignRoleCommandHandler.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Commands\\AssignRole\\AssignRoleCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\AssignRole\\AssignRoleCommandHandler.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Commands\\AssignRole\\AssignRoleCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:25:41.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateRoleCommand.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\CreateRole\\CreateRoleCommand.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Commands\\CreateRole\\CreateRoleCommand.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\CreateRole\\CreateRoleCommand.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Commands\\CreateRole\\CreateRoleCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:18:17.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "CreateRoleCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\CreateRole\\CreateRoleCommandHandler.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Commands\\CreateRole\\CreateRoleCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\CreateRole\\CreateRoleCommandHandler.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Commands\\CreateRole\\CreateRoleCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:18:27.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateRoleCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\CreateRole\\CreateRoleCommandValidator.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Commands\\CreateRole\\CreateRoleCommandValidator.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\CreateRole\\CreateRoleCommandValidator.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Commands\\CreateRole\\CreateRoleCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:18:35.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResetUserPasswordCommand.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\ResetUserPassword\\ResetUserPasswordCommand.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Commands\\ResetUserPassword\\ResetUserPasswordCommand.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\ResetUserPassword\\ResetUserPasswordCommand.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Commands\\ResetUserPassword\\ResetUserPasswordCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T04:46:42.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ResetUserPasswordCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\ResetUserPassword\\ResetUserPasswordCommandHandler.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Commands\\ResetUserPassword\\ResetUserPasswordCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\ResetUserPassword\\ResetUserPasswordCommandHandler.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Commands\\ResetUserPassword\\ResetUserPasswordCommandHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T04:48:00.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ResetUserPasswordCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\ResetUserPassword\\ResetUserPasswordCommandValidator.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Commands\\ResetUserPassword\\ResetUserPasswordCommandValidator.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Commands\\ResetUserPassword\\ResetUserPasswordCommandValidator.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Commands\\ResetUserPassword\\ResetUserPasswordCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T04:48:13.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetAllRolesQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryHandler.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryHandler.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryHandler.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T18:01:06.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetAllRolesQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryResponse.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryResponse.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryResponse.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Queries\\GetAllRoles\\GetAllRolesQueryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T18:00:57.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "GetQueryResponse.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Queries\\GetAllUsers\\GetQueryResponse.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Application\\Queries\\GetAllUsers\\GetQueryResponse.cs",
@@ -210,12 +397,11 @@
               "RelativeToolTip": "IdentityServer\\Application\\Queries\\GetAllUsers\\GetQueryResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T16:45:23.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T16:45:23.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "GetAllUsersQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Queries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Application\\Queries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
@@ -223,12 +409,11 @@
               "RelativeToolTip": "IdentityServer\\Application\\Queries\\GetAllUsers\\GetAllUsersQueryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T16:45:14.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T16:45:14.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "GetAllUsersQuery.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Queries\\GetAllUsers\\GetAllUsersQuery.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Application\\Queries\\GetAllUsers\\GetAllUsersQuery.cs",
@@ -236,12 +421,11 @@
               "RelativeToolTip": "IdentityServer\\Application\\Queries\\GetAllUsers\\GetAllUsersQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T16:45:06.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T16:45:06.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "GetUserInfoQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React2\\IdentityServer\\Application\\Queries\\GetUserInfo\\GetUserInfoQueryHandler.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Application\\Queries\\GetUserInfo\\GetUserInfoQueryHandler.cs",

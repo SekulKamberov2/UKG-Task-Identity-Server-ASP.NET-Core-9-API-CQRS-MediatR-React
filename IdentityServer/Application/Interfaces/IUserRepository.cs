@@ -9,5 +9,6 @@
         Task<User> UpdateUserAsync(User user);
         Task<bool> DeleteUserAsync(int userId);
         Task<IEnumerable<User>> GetUsersAsync();
+        Task<bool> ResetPasswordAsync(int userId, string newPassword);
     }
 }

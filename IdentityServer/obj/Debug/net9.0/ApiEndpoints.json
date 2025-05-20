@@ -11,12 +11,60 @@
   },
   {
     "ContainingType": "IdentityServer.Controllers.UsersController",
+    "Method": "ResetPasswordByAdminAsync",
+    "RelativePath": "api/Users/admin/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "IdentityServer.Application.Commands.ResetUserPassword.ResetUserPasswordCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityServer.Controllers.UsersController",
     "Method": "GetAllUsersAsync",
     "RelativePath": "api/Users/all-users",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityServer.Controllers.UsersController",
+    "Method": "AssignRoleToUser",
+    "RelativePath": "api/Users/assign-role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "IdentityServer.Application.Commands.AssignRole.AssignRoleCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityServer.Controllers.UsersController",
+    "Method": "CreateRole",
+    "RelativePath": "api/Users/create-role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "IdentityServer.Application.Commands.CreateRole.CreateRoleCommand",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -53,6 +101,22 @@
   },
   {
     "ContainingType": "IdentityServer.Controllers.UsersController",
+    "Method": "ResetPasswordAsync",
+    "RelativePath": "api/Users/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "IdentityServer.Application.Commands.ResetUserPassword.ResetUserPasswordCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityServer.Controllers.UsersController",
     "Method": "SignIn",
     "RelativePath": "api/Users/signIn",
     "HttpMethod": "POST",
@@ -78,6 +142,27 @@
       {
         "Name": "command",
         "Type": "IdentityServer.Application.Commands.CreateUser.CreateUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityServer.Controllers.UsersController",
+    "Method": "UpdateRole",
+    "RelativePath": "api/Users/update-role/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "IdentityServer.Application.Commands.UpdateRole.UpdateRoleCommand",
         "IsRequired": true
       }
     ],

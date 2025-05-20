@@ -11,5 +11,6 @@
         Task<IdentityResult<User>> UpdateAsync(User user);
         Task<IdentityResult<bool>> DeleteAsync(int userId);
         Task<IdentityResult<IEnumerable<User>>> GetAllUsersAsync();
+        Task<IdentityResult<bool>> ResetPasswordAsync(int Id, string newPassword);
     }
 }
