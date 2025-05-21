@@ -15,6 +15,7 @@
     using IdentityServer.Application.Commands.CreateRole;
     using IdentityServer.Application.Commands.AssignRole;
     using IdentityServer.Application.Commands.UpdateRole;
+    using IdentityServer.Application.Commands.DeleteRole;
 
     public class UsersController : BaseApiController
     {
@@ -74,6 +75,10 @@
             command.Id = id;
             return AsActionResult(await _mediator.Send(command));
         }
+
+        [HttpDelete("delete-role/{id}")]
+        public async Task<IActionResult> DeleteRole(int id) =>
+            AsActionResult(await _mediator.Send(new DeleteRoleCommand { RoleId = id }));
 
     }
 }

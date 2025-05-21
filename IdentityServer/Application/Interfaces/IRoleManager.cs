@@ -10,5 +10,6 @@
         Task<IdentityResult<bool>> CreateRoleAsync(string roleName, string description);
         Task<IdentityResult<Role>> GetRoleByIdAsync(int roleId);
         Task<IdentityResult<bool>> UpdateRoleAsync(int id, string? name, string? description);
+        Task<IdentityResult<bool>> DeleteRoleAsync(int role);
     }
 }

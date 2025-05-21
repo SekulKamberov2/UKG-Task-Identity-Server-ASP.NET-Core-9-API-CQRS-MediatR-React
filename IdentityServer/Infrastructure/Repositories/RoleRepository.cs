@@ -150,5 +150,24 @@
                 throw new RepositoryException("Error occurred while updating the role.", ex);
             }
         }
+
+        public async Task<bool> DeleteUserRoleAsync(int roleId)
+        {
+            const string sql = @"DELETE FROM Roles WHERE Id = @RoleId";
+            var parameters = new { RoleId = roleId };
+            try
+            {
+                var result = await _dbConnection.ExecuteAsync(sql, parameters);
+                if (result <= 0)
+                    throw new RepositoryException("Role not found or already deleted.");
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while deleting role ID {RoleId}.", roleId);
+                throw new RepositoryException("Error occurred while deleting role.", ex);
+            }
+        }
     }
 }

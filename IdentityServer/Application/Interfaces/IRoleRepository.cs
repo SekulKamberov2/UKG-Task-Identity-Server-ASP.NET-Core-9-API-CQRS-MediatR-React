@@ -9,5 +9,6 @@
         Task<bool> CreateUserRoleAsync(string roleName, string description);
         Task<Role> FindRoleByIdAsync(int roleId);
         Task<bool> UpdateUserRoleAsync(int id, string? roleName, string? description);
+        Task<bool> DeleteUserRoleAsync(int role);
     }
 }

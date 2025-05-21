@@ -69,6 +69,22 @@
   },
   {
     "ContainingType": "IdentityServer.Controllers.UsersController",
+    "Method": "DeleteRole",
+    "RelativePath": "api/Users/delete-role/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityServer.Controllers.UsersController",
     "Method": "DeleteUser",
     "RelativePath": "api/Users/delete-User/{userId}",
     "HttpMethod": "DELETE",

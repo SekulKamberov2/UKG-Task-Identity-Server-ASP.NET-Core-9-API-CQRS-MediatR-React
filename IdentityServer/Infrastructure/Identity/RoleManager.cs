@@ -105,5 +105,14 @@
                 $"Error occurred while updating role ID {id}."
             );
         }
+
+        public async Task<IdentityResult<bool>> DeleteRoleAsync(int roleId)
+        {
+            return await ExecuteWithLogging(
+                () => _roleRepository.DeleteUserRoleAsync(roleId),
+                "Role deleted successfully.",
+                $"Error occurred while deleting role ID {roleId}."
+            );
+        }
     }
 }
