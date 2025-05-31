@@ -286,7 +286,7 @@
 
             // Assert
             Assert.False(result.IsSuccess);
-            Assert.Equal("Request cannot be null.", result.Error);  // Ensure the exact error string
+            Assert.Equal("Request cannot be null.", result.Error);  
         }
     }
 }
