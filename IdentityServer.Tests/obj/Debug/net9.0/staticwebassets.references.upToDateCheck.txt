@@ -6,3 +6,16 @@ C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS
 C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\sekne\OneDrive\Desktop\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\IdentityServer\obj\Debug\net9.0\staticwebassets.build.json
