@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{675326D2-BCD0-462D-B160-2CA42A3ACE1B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleManagementAPI", "PeopleManagementAPI\PeopleManagementAPI.csproj", "{E6A118E9-6BE6-4BFC-B8D8-33F1DCB59E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer.Tests", "IdentityServer.Tests\IdentityServer.Tests.csproj", "{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,9 +25,16 @@ Global
 		{E6A118E9-6BE6-4BFC-B8D8-33F1DCB59E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6A118E9-6BE6-4BFC-B8D8-33F1DCB59E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6A118E9-6BE6-4BFC-B8D8-33F1DCB59E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62D14053-E7C9-48BD-A60B-E7E6840207AA}
