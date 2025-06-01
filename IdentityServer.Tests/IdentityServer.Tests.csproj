@@ -19,10 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="UnitTests\Application\Queries\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\IdentityServer\IdentityServer.csproj" />
   </ItemGroup>
 
