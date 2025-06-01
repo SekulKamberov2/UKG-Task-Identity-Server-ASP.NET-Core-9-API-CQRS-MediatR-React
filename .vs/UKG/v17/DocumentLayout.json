@@ -197,7 +197,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
@@ -291,6 +291,18 @@
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GetUserInfoQueryHandlerTests.cs",
@@ -298,7 +310,7 @@
               "RelativeDocumentMoniker": "IdentityServer.Tests\\UnitTests\\Application\\Queries\\GetUserInfoQueryHandlerTests.cs",
               "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\UnitTests\\Application\\Queries\\GetUserInfoQueryHandlerTests.cs",
               "RelativeToolTip": "IdentityServer.Tests\\UnitTests\\Application\\Queries\\GetUserInfoQueryHandlerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T04:25:54.649Z",
               "EditorCaption": ""
@@ -313,20 +325,7 @@
               "RelativeToolTip": "IdentityServer.Tests\\UnitTests\\Application\\Queries\\GetAllUsersQueryHandlerTests.cs",
               "ViewState": "AgIAAJMBAAAAAAAAAAAuwK0BAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T04:20:13.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-06-01T04:20:13.129Z"
             },
             {
               "$type": "Document",
@@ -338,8 +337,7 @@
               "RelativeToolTip": "IdentityServer.Tests\\UnitTests\\Application\\Commands\\UpdateUserCommandHandlerTests.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T18:09:18.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T18:09:18.045Z"
             },
             {
               "$type": "Document",
