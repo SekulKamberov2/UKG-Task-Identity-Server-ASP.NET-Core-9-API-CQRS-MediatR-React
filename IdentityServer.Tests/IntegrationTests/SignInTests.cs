@@ -186,13 +186,6 @@
 
             // Reset after test
             tokenService.ForceFailure = false;
-        }
-
-
-
-
-
-
-
+        } 
     }
 }

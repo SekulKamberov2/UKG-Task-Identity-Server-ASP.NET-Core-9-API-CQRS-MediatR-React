@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59}|IdentityServer.Tests\\IdentityServer.Tests.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react\\identityserver.tests\\integrationtests\\signintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59}|IdentityServer.Tests\\IdentityServer.Tests.csproj|solutionrelative:identityserver.tests\\integrationtests\\signintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59}|IdentityServer.Tests\\IdentityServer.Tests.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react\\identityserver.tests\\integrationtests\\signuptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59}|IdentityServer.Tests\\IdentityServer.Tests.csproj|solutionrelative:identityserver.tests\\integrationtests\\signuptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react\\identityserver\\application\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59}|IdentityServer.Tests\\IdentityServer.Tests.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react\\identityserver.tests\\integrationtests\\inmemorywebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -159,10 +163,6 @@
       "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\infrastructure\\identity\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react\\identityserver\\application\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675326D2-BCD0-462D-B160-2CA42A3ACE1B}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\application\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E6A118E9-6BE6-4BFC-B8D8-33F1DCB59E48}|PeopleManagementAPI\\PeopleManagementAPI.csproj|c:\\users\\sekne\\onedrive\\desktop\\ukg-task-identity-server-asp.net-core-9-api-cqrs-mediatr-react\\peoplemanagementapi\\models\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6A118E9-6BE6-4BFC-B8D8-33F1DCB59E48}|PeopleManagementAPI\\PeopleManagementAPI.csproj|solutionrelative:peoplemanagementapi\\models\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -237,7 +237,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GetUserInfoTests.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\IntegrationTests\\GetUserInfoTests.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\IntegrationTests\\GetUserInfoTests.cs",
@@ -251,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "PeopleController.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\PeopleManagementAPI\\Controllers\\PeopleController.cs",
               "RelativeDocumentMoniker": "PeopleManagementAPI\\Controllers\\PeopleController.cs",
@@ -264,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Controllers\\UsersController.cs",
@@ -277,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "RoleManager.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer\\Infrastructure\\Identity\\RoleManager.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Infrastructure\\Identity\\RoleManager.cs",
@@ -290,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "RolesResponse.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\PeopleManagementAPI\\Models\\RolesResponse.cs",
               "RelativeDocumentMoniker": "PeopleManagementAPI\\Models\\RolesResponse.cs",
@@ -303,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer\\Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Infrastructure\\Repositories\\UserRepository.cs",
@@ -330,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "UserHttpClient.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\PeopleManagementAPI\\Services\\UserHttpClient.cs",
               "RelativeDocumentMoniker": "PeopleManagementAPI\\Services\\UserHttpClient.cs",
@@ -343,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InMemoryWebApplicationFactory.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\IntegrationTests\\InMemoryWebApplicationFactory.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\IntegrationTests\\InMemoryWebApplicationFactory.cs",
@@ -370,31 +370,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SignInTests.cs",
-              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\IntegrationTests\\SignInTests.cs",
-              "RelativeDocumentMoniker": "IdentityServer.Tests\\IntegrationTests\\SignInTests.cs",
-              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\IntegrationTests\\SignInTests.cs",
-              "RelativeToolTip": "IdentityServer.Tests\\IntegrationTests\\SignInTests.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAAAcwMMAAAAAAAAAAAAAAA==",
+              "Title": "SignUpTests.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\IntegrationTests\\SignUpTests.cs",
+              "RelativeDocumentMoniker": "IdentityServer.Tests\\IntegrationTests\\SignUpTests.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\IntegrationTests\\SignUpTests.cs",
+              "RelativeToolTip": "IdentityServer.Tests\\IntegrationTests\\SignUpTests.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAArwHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T09:44:04.984Z",
+              "WhenOpened": "2025-06-03T09:57:32.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FakeUserManager.cs",
-              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeUserManager.cs",
-              "RelativeDocumentMoniker": "IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeUserManager.cs",
-              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeUserManager.cs",
-              "RelativeToolTip": "IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeUserManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T04:13:22.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FakeTokenService.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeTokenService.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeTokenService.cs",
@@ -406,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FakeRoleManager.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeRoleManager.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeRoleManager.cs",
@@ -418,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FakeUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeUserRepository.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeUserRepository.cs",
@@ -430,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FakeRoleRepository.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeRoleRepository.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeRoleRepository.cs",
@@ -442,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GetAllUsersTests.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\IntegrationTests\\GetAllUsersTests.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\IntegrationTests\\GetAllUsersTests.cs",
@@ -454,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\Program.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\Program.cs",
@@ -466,7 +454,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "CreateUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer\\Application\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Application\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer\\Application\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "RelativeToolTip": "IdentityServer\\Application\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwDUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T11:53:07.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FakeUserManager.cs",
+              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeUserManager.cs",
+              "RelativeDocumentMoniker": "IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeUserManager.cs",
+              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeUserManager.cs",
+              "RelativeToolTip": "IdentityServer.Tests\\IntegrationTests\\Fakes\\FakeUserManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:13:22.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "GetUserInfoQueryHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\UnitTests\\Application\\Queries\\GetUserInfoQueryHandlerTests.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\UnitTests\\Application\\Queries\\GetUserInfoQueryHandlerTests.cs",
@@ -478,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "GetAllUsersQueryHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\UnitTests\\Application\\Queries\\GetAllUsersQueryHandlerTests.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\UnitTests\\Application\\Queries\\GetAllUsersQueryHandlerTests.cs",
@@ -490,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UpdateUserCommandHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\UnitTests\\Application\\Commands\\UpdateUserCommandHandlerTests.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\UnitTests\\Application\\Commands\\UpdateUserCommandHandlerTests.cs",
@@ -502,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "UpdateRoleCommandHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\UnitTests\\Application\\Commands\\UpdateRoleCommandHandlerTests.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\UnitTests\\Application\\Commands\\UpdateRoleCommandHandlerTests.cs",
@@ -514,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "SignInCommandHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\UnitTests\\Application\\Commands\\SignInCommandHandlerTests.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\UnitTests\\Application\\Commands\\SignInCommandHandlerTests.cs",
@@ -526,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ResetUserPasswordCommandHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\UnitTests\\Application\\Commands\\ResetUserPasswordCommandHandlerTests.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\UnitTests\\Application\\Commands\\ResetUserPasswordCommandHandlerTests.cs",
@@ -538,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DeleteUserCommandHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\UnitTests\\Application\\Commands\\DeleteUserCommandHandlerTests.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\UnitTests\\Application\\Commands\\DeleteUserCommandHandlerTests.cs",
@@ -550,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "DeleteRoleCommandHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\UnitTests\\Application\\Commands\\DeleteRoleCommandHandlerTests.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\UnitTests\\Application\\Commands\\DeleteRoleCommandHandlerTests.cs",
@@ -562,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CreateUserCommandHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\UnitTests\\Application\\Commands\\CreateUserCommandHandlerTests.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\UnitTests\\Application\\Commands\\CreateUserCommandHandlerTests.cs",
@@ -574,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CreateRoleCommandHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\UnitTests\\Application\\Commands\\CreateRoleCommandHandlerTests.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\UnitTests\\Application\\Commands\\CreateRoleCommandHandlerTests.cs",
@@ -586,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AssignRoleCommandHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer.Tests\\UnitTests\\Application\\Commands\\AssignRoleCommandHandlerTests.cs",
               "RelativeDocumentMoniker": "IdentityServer.Tests\\UnitTests\\Application\\Commands\\AssignRoleCommandHandlerTests.cs",
@@ -598,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "RoleRepository.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer\\Infrastructure\\Repositories\\RoleRepository.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Infrastructure\\Repositories\\RoleRepository.cs",
@@ -610,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "IRoleRepository.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer\\Application\\Interfaces\\IRoleRepository.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Application\\Interfaces\\IRoleRepository.cs",
@@ -622,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "IRoleManager.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer\\Application\\Interfaces\\IRoleManager.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Application\\Interfaces\\IRoleManager.cs",
@@ -634,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "DeleteRoleCommandValidator.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer\\Application\\Commands\\DeleteRole\\DeleteRoleCommandValidator.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Application\\Commands\\DeleteRole\\DeleteRoleCommandValidator.cs",
@@ -646,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "DeleteRoleCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer\\Application\\Commands\\DeleteRole\\DeleteRoleCommandHandler.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Application\\Commands\\DeleteRole\\DeleteRoleCommandHandler.cs",
@@ -658,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "DeleteRoleCommand.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer\\Application\\Commands\\DeleteRole\\DeleteRoleCommand.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Application\\Commands\\DeleteRole\\DeleteRoleCommand.cs",
@@ -667,19 +680,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T12:23:48.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "CreateUserCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer\\Application\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\Application\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
-              "ToolTip": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer\\Application\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
-              "RelativeToolTip": "IdentityServer\\Application\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAqwCIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T11:53:07.518Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -707,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "SignInCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer\\Application\\Commands\\SignIn\\SignInCommandHandler.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Application\\Commands\\SignIn\\SignInCommandHandler.cs",
@@ -730,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "UserManager.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\IdentityServer\\Infrastructure\\Identity\\UserManager.cs",
               "RelativeDocumentMoniker": "IdentityServer\\Infrastructure\\Identity\\UserManager.cs",
@@ -826,7 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "RoleBindingDTO.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\PeopleManagementAPI\\Models\\RoleBindingDTO.cs",
               "RelativeDocumentMoniker": "PeopleManagementAPI\\Models\\RoleBindingDTO.cs",
@@ -838,7 +838,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "AssignRoleRequest.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\PeopleManagementAPI\\Models\\AssignRoleRequest.cs",
               "RelativeDocumentMoniker": "PeopleManagementAPI\\Models\\AssignRoleRequest.cs",
@@ -850,7 +850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ResetPasswordRequest.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\PeopleManagementAPI\\Models\\ResetPasswordRequest.cs",
               "RelativeDocumentMoniker": "PeopleManagementAPI\\Models\\ResetPasswordRequest.cs",
@@ -874,7 +874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "UpdateUserRequest.cs",
               "DocumentMoniker": "C:\\Users\\sekne\\OneDrive\\Desktop\\UKG-Task-Identity-Server-ASP.NET-Core-9-API-CQRS-MediatR-React\\PeopleManagementAPI\\Models\\UpdateUserRequest.cs",
               "RelativeDocumentMoniker": "PeopleManagementAPI\\Models\\UpdateUserRequest.cs",
