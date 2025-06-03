@@ -1,20 +1,21 @@
-﻿using IdentityServer.Application.Interfaces;
-using IdentityServer.Tests.IntegrationTests.Fakes;
-using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
-using Microsoft.Extensions.Hosting;
-namespace IdentityServer.Tests.IntegrationTests
+﻿namespace IdentityServer.Tests.IntegrationTests
 {
+    using Microsoft.AspNetCore.Mvc.Testing;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.DependencyInjection.Extensions;
+    using Microsoft.Extensions.Hosting;
+
+    using IdentityServer.Application.Interfaces;
+    using IdentityServer.Tests.IntegrationTests.Fakes;
+ 
     public class InMemoryWebApplicationFactory : WebApplicationFactory<Program>
     {
         protected override void ConfigureWebHost(IWebHostBuilder builder)
         {
-            builder.UseEnvironment("Testing");  // Ensure it's using the correct environment for testing
+            builder.UseEnvironment("Testing");  
 
             builder.ConfigureServices(services =>
-            {
-                // Remove existing services and register the fake ones
+            { 
                 RemoveExistingServices(services);
                 RegisterFakeServices(services);
                 LogRegisteredServices(services);
