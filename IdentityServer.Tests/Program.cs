@@ -1,11 +1,20 @@
 using FluentValidation;
 using FluentValidation.AspNetCore;
+
+using IdentityServer.Application.Commands.CreateUser;
+using IdentityServer.Application.Commands.SignIn;
 using IdentityServer.Application.Interfaces;
 using IdentityServer.Controllers;
 using IdentityServer.Infrastructure.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
- 
+
+builder.Services.AddMediatR(cfg =>
+{
+    cfg.RegisterServicesFromAssemblyContaining<CreateUserCommand>();
+    cfg.RegisterServicesFromAssemblyContaining<SignInCommandHandler>();
+});
+
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddFluentValidationClientsideAdapters(); 
 
