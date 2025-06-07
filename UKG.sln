@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleManagementAPI", "Peop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer.Tests", "IdentityServer.Tests\IdentityServer.Tests.csproj", "{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleManagementAPI.Tests.Unit", "PeopleManagementAPI.Tests.Unit\PeopleManagementAPI.Tests.Unit.csproj", "{5FA03736-2EBE-456B-B8DE-BF291A12F91B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +31,17 @@ Global
 		{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA03736-2EBE-456B-B8DE-BF291A12F91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA03736-2EBE-456B-B8DE-BF291A12F91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA03736-2EBE-456B-B8DE-BF291A12F91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA03736-2EBE-456B-B8DE-BF291A12F91B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1CE4DBB6-B9F6-42E2-8F70-5801D7743F59} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5FA03736-2EBE-456B-B8DE-BF291A12F91B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62D14053-E7C9-48BD-A60B-E7E6840207AA}
